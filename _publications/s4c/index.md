@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: publications/s4c/
-date: 2023_05_29 # determines sorting just take the date of the first publication as YYYY_MM_DD
-image: assets/teaser.png
-image_mouseover: assets/header_vid.mp4
+date: 2023_10_16 # determines sorting just take the date of the first publication as YYYY_MM_DD
+image: assets/teaser.pdf
+image_mouseover: assets/header_video.mp4
 
 title: "S4C: Self-Supervised Semantic Scene Completion with Neural Fields"
 venue: 3DV, 2024
@@ -42,4 +42,21 @@ links:
 citation: # insert citation when is published
 
 acknowledgements: # don't know
+
+<video width="100%" autoplay muted loop>
+  <source src="./assets/header_video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+***SSC Predictions on KITTI-360.** Input image (top), color-coded voxel grids (bottom). The voxels indicate if a certain region is occupied or not, the color indicates the class. A color to class map can be found in [TODO]. We compare the predictions of our S4C against the ground truth and other fully supervised state-of-the-art methods. The current method is displayed in the bottom left corner.*
+
+# Abstract
+
+Our proposed method can reconstruct a scene from a single image and only relies on videos and pseudo segmentation ground truth generated from off-the-shelf image segmentation network during training.
+Unlike existing methods, which use discrete voxel grids, we represent scenes as implicit *semantic fields*.
+This formulation allows querying any point within the camera frustum for occupancy and semantic class.
+Our architecture is trained through rendering-based self-supervised losses.
+Nonetheless, our method achieves performance close to fully supervised state-of-the-art methods.
+Additionally, our method demonstrates strong generalization capabilities and can synthesize accurate segmentation maps for far away viewpoints.
+
 ---
