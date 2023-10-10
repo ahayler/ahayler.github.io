@@ -2,7 +2,7 @@
 layout: page
 permalink: publications/s4c/
 date: 2023_10_16 # determines sorting just take the date of the first publication as YYYY_MM_DD
-image: assets/teaser.pdf
+image: assets/teaser.png
 image_mouseover: assets/header_video.mp4
 
 title: "S4C: Self-Supervised Semantic Scene Completion with Neural Fields"
