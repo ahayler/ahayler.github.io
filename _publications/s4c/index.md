@@ -43,6 +43,8 @@ citation: # insert citation when is published
 
 acknowledgements: # don't know
 
+---
+
 <video width="100%" autoplay muted loop>
   <source src="./assets/header_video.mp4" type="video/mp4">
 Your browser does not support the video tag.
@@ -59,4 +61,3 @@ Our architecture is trained through rendering-based self-supervised losses.
 Nonetheless, our method achieves performance close to fully supervised state-of-the-art methods.
 Additionally, our method demonstrates strong generalization capabilities and can synthesize accurate segmentation maps for far away viewpoints.
 
----
