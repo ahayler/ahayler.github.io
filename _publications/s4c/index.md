@@ -3,7 +3,7 @@ layout: page
 permalink: publications/s4c/
 date: 2023_10_16 # determines sorting just take the date of the first publication as YYYY_MM_DD
 image: assets/teaser.png
-image_mouseover: assets/header_video.mp4
+image_mouseover: assets/header_vid.mp4
 
 title: "S4C: Self-Supervised Semantic Scene Completion with Neural Fields"
 venue: 3DV, 2024
@@ -44,7 +44,7 @@ citation: # insert citation when is published
 acknowledgements: # don't know
 
 <video width="100%" autoplay muted loop>
-  <source src="./assets/header_video.mp4" type="video/mp4">
+  <source src="./assets/header_vid.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
