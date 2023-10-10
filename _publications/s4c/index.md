@@ -39,9 +39,9 @@ links:
       link: # after video was created
       style: "bi bi-youtube"
 
-citation: # insert citation when is published
+# citation: # insert citation when is published
 
-acknowledgements: # don't know
+# acknowledgements: # don't know
 
 ---
 
