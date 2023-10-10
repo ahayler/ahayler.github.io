@@ -3,7 +3,7 @@ layout: page
 permalink: publications/s4c/
 date: 2023_10_16 # determines sorting just take the date of the first publication as YYYY_MM_DD
 image: assets/teaser.png
-image_mouseover: assets/header_vid.mp4
+image_mouseover: assets/header_video.mp4
 
 title: "S4C: Self-Supervised Semantic Scene Completion with Neural Fields"
 venue: 3DV, 2024
@@ -24,7 +24,7 @@ affiliations:
   - name: oxford
     length: long
 
-description: "A differentiable nonlinear least squares framework to account for uncertainty in relative pose estimation from feature correspondences regardless of the feature extraction algorithm of choice."
+description: "S4C is the first self-supervised approach to the Sematic Scence Completion task. It achives close to state-of-the-art performance on the KITTI-360 SSCBench dataset."
 
 links:
     - name: Project Page
@@ -44,7 +44,7 @@ citation: # insert citation when is published
 acknowledgements: # don't know
 
 <video width="100%" autoplay muted loop>
-  <source src="./assets/header_vid.mp4" type="video/mp4">
+  <source src="./assets/header_video.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
