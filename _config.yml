@@ -21,7 +21,7 @@
 name: Adrian Hayler
 email: a.hayler@tum.de
 description: >- # this means to ignore newlines until "baseurl:"
-  I am an undergraduate student in Mathematics at TU Munich. This is an overview over projects I was personally involved in. I wrote my bachelor's thesis at the TUM's Computer Vision Group. Check out more of their awesome work <a href="https://cvg.cit.tum.de/publications"> here </a>.
+  I am an undergraduate student in Mathematics at TU Munich. This is an overview over projects I was personally involved in. I wrote my bachelor's thesis at TUM's Computer Vision Group. Check out more of their awesome work <a href="https://cvg.cit.tum.de/publications"> here </a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adrihayler
