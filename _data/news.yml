@@ -1,0 +1,4 @@
+- date: November 2023
+  description: "We have released the code for S4C! We also include the predictions of other state-of-the-art methods on the SSCBench KITTI-360 dataset."
+- date: October 2023
+  description: "Happy to announce that our paper 'S4C: Self-Supervised Semantic Scene Completion with Neural Fields' got accepted at 3DV 2024!"

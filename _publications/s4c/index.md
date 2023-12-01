@@ -6,7 +6,7 @@ image: assets/teaser.png
 image_mouseover: assets/header_video.mp4
 
 title: "S4C: Self-Supervised Semantic Scene Completion with Neural Fields"
-venue: ArXiv, 2023
+venue: 3DV, 2024
 authors:
   - name: adrianhayler
     affiliations: "1"
@@ -34,9 +34,9 @@ links:
     - name: Paper
       link: https://arxiv.org/abs/2310.07522
       style: "bi bi-file-earmark-richtext"
-    # - name: Code
-    #  link: # after clean up
-    #   style: "bi bi-github"
+    - name: Code
+      link: https://github.com/ahayler/s4c
+      style: "bi bi-github"
     # - name: Video
     #   link: # after video was created
     #   style: "bi bi-youtube"
