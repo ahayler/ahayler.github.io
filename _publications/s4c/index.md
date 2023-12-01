@@ -10,8 +10,10 @@ venue: 3DV, 2024
 authors:
   - name: adrianhayler
     affiliations: "1"
+    equal_contribution: True
   - name: felixwimbauer
     affiliations: "1,2"
+    equal_contribution: True
   - name: dominikmuhle
     affiliations: "1,2"
   - name: christianrupprecht
