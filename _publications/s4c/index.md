@@ -6,7 +6,7 @@ image: assets/teaser.png
 image_mouseover: assets/header_video.mp4
 
 title: "S4C: Self-Supervised Semantic Scene Completion with Neural Fields"
-venue: 3DV, 2024
+venue: 3DV Spotlight, 2024
 authors:
   - name: adrianhayler
     affiliations: "1"
