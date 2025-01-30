@@ -39,9 +39,9 @@ links:
     - name: Code
       link: https://github.com/ahayler/s4c
       style: "bi bi-github"
-    - name: Video
-      link: https://youtu.be/hqChOUo1rWc
-      style: "bi bi-youtube"
+#    - name: Video
+#      link: https://youtu.be/hqChOUo1rWc
+#      style: "bi bi-youtube"
 
 # citation: # insert citation when is published
 
