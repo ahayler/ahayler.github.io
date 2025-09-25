@@ -23,7 +23,7 @@ email: a.hayler@gmx.de
 description: >- # this means to ignore newlines until "baseurl:"
   I am currently pursuing a MSc in Advanced Computer Science at the University of Oxford. 
   Before that completed an undergraduate degree in Mathematics at the Technical University of Munich (TUM). 
-  I wrote my bachelor's thesis at TUM's Computer Vision Group. Check out more of their awesome work <a href="https://cvg.cit.tum.de/publications"> here </a>.
+  I wrote my bachelor's thesis at TUM's Computer Vision Group. Check out more of their awesome work <a href="https://cvg.cit.tum.de/publications">here</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adrihayler
