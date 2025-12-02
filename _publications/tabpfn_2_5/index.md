@@ -1,8 +1,8 @@
 ---
 layout: null
-permalink: false
+permalink: ""
 date: 2025_11_01  # YYYY_MM_DD for sorting
-image: assets/teaser.png 
+image: /_publications/tabpfn_2_5/assets/teaser.png 
 
 title: "TabPFN-2.5: Advancing the State of the Art in Tabular Foundation Models"
 venue: arXiv, 2025 (also AITD@EurIPS 2025 Spotlight)
