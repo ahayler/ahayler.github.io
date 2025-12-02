@@ -139,7 +139,7 @@ layout: null
             {% if publication.permalink != "" %}
             <h3 class="publication-title"><a href="{{ publication.permalink }}">{{ publication.title }}</a></h3>
             {% else %}
-            <h3 class="publication-title"><a href="{{ publication.links[0].link }}">{{ publication.title }}</a></h3>
+            <h3 class="publication-title">{{ publication.title }}</h3>
             {% endif %}
             <div class="publication-authors">
               {% for author_id in publication.authors %}
