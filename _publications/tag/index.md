@@ -2,7 +2,7 @@
 layout: null
 permalink: false
 date: 2025_09_15  # YYYY_MM_DD for sorting
-image: assets/teaser.png  # add your image to _publications/tabpfn_2_5/assets/
+image: assets/teaser.png 
 
 title: "Bringing Graphs to the Table: Zero-shot Node Classification via Tabular Foundation Models"
 venue: NPGML@NeurIPS Oral, 2025
