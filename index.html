@@ -130,13 +130,21 @@ layout: null
               Your browser does not support the video tag.
             </video>
             {% endif %}
+            {% if publication.permalink != false %}
             <img alt="{{publication.title}}" src="{{publication.permalink}}{{ publication.image }}" />
+            {% else %}
+            <img alt="{{publication.title}}" src="{{ publication.image }}" />
+            {% endif %}
           </div>
         </div>
 
         <div class="column">
           <div class="content">
+            {% if publication.permalink != false %}
             <h3 class="publication-title"><a href="{{ publication.permalink }}">{{ publication.title }}</a></h3>
+            {% else %}
+            <h3 class="publication-title">{{ publication.title }}</h3>
+            {% endif %}
             <div class="publication-authors">
               {% for author_id in publication.authors %}
               {% if site.data.authors_external[author_id.name] != nil %}
@@ -166,7 +174,7 @@ layout: null
               <span class="publication-venue-emph">{{ award }}<span>
                   {% endfor %}
             </div>
-            <p class="publication-description">{{ publication.description }}</p>
+            <p class="publication-description">{{ publication.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             <p>
               {% for link in publication.links %}
               <a href="{{ link.link }}">{{link.name}}</a>
