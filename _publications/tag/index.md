@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: ""
+permalink: false
 date: 2025_09_15  # YYYY_MM_DD for sorting
 #image: /publications/tag/assets/teaser.png 
 

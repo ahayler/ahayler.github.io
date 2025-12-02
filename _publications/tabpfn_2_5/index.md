@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: ""
+permalink: false
 date: 2025_11_01  # YYYY_MM_DD for sorting
 #image: /publications/tabpfn_2_5/assets/teaser.png 
 
